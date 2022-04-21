@@ -46,6 +46,7 @@ public class JDBCIntro {
         for (int i=1; i<rsetMetaData.getColumnCount(); i++){
             System.out.println(rsetMetaData.getColumnName(i));
             System.out.println("tes");
+            System.out.println("test2");
         }
     }
 
