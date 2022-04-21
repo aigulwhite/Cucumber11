@@ -45,6 +45,7 @@ public class JDBCIntro {
         // print all the column names from Employees table
         for (int i=1; i<rsetMetaData.getColumnCount(); i++){
             System.out.println(rsetMetaData.getColumnName(i));
+            System.out.println("tes");
         }
     }
 
